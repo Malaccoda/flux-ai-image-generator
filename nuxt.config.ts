@@ -12,11 +12,6 @@ export default defineNuxtConfig({
     '@kgierke/nuxt-basic-auth'
   ],
 
-  // https://hub.nuxt.com/docs/getting-started/installation#options
-  hub: {
-    ai: true,
-    blob: true,
-  },
 
   basicAuth: {
     enabled: process.env.NODE_ENV === 'production',
